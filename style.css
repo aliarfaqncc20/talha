@@ -1,0 +1,107 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: black;
+}
+
+.wrapper{
+	width: 1000px;
+	height: 1700px;
+	top: 0px;
+	left: 0px;
+	position: relative;
+	background: black;
+	margin:0 auto;
+}
+
+
+.header{
+		width: 1000px;
+	height: 200px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	background:red;
+}
+
+/*---------------start menu---------------------------*/
+.menu{
+	width:	1000px;
+	height:50px;
+	top:200px;
+	left:0px;
+	position:absolute;
+	background:pink;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu ul li{
+	float: left;
+	width: 130px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 50px;
+	list-style: none;
+	border: 1px solid white;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu ul li a:hover{
+	background: yellow;
+	display: block;}
+
+
+/*---------------end menu---------------------------*/
+.slider{
+		width:	1000px;
+	height:300px;
+	top:250px;
+	left:0px;
+	position:absolute;
+	background:blue;
+}
+.left{
+
+	width:	200px;
+	height: 900px;
+	top: 550px;
+	left:0px;
+	position:absolute;
+	background:brown;
+
+
+}
+.content{
+	width:	600px;
+	height: 900px;
+	top: 550px;
+	left:200px;
+	position:absolute;
+	background:white;}
+
+
+.right{
+	width:	200px;
+	height: 900px;
+	top: 550px;
+	left:800px;
+	position:absolute;
+	background:brown;}
+
+
+
+.footer{		
+	width:	1000px;
+	height:300px;
+	top:1450px;
+	left:0px;
+	position:absolute;
+	background:blue;}
